@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel.co</title>
+    <title>Travel.Co</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,13 +14,15 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+  
+
 </head>
 <body>
 <!-- header section starts  -->
 
 <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel.com </a>
+    <a href="#" class="logo"> <i class="fas fa-hiking"></i>Travel.Co</a>
 
     <nav class="navbar">
         <div id="nav-close" class="fas fa-times"></div>
@@ -30,17 +32,21 @@
         <a href="#packages">packages</a>
         <!-- <a href="#guides">guides</a> -->
         <a href="#reviews">reviews</a>
-        <a href="#blogs">blogs</a>
-        <a href="login.html">Login</a>
+        <a href="#blogs">Posts</a>
+        <a href="register.php">Sign-in/Register</a>
     </nav>
 
     <div class="icons">
-        <div id="menu-btn" class="fas fa-bars"></div>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <div id="search-btn" class="fas fa-search"></div>
-    </div>
+        <div id="menu-btn" class="fas fa-bars"></div> 
+        <a href="#" class="fas fa-"></a>
+        <div id="search-btn" class="fas fa-search">
 
+        </div>
+    </div>
 </header>
+   
+
+
 
 <!-- header section ends -->
 
@@ -67,21 +73,23 @@
             <div class="swiper-slide">
                 <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
                     <div class="content">
-                        <span>Make your Next Trip</span>
-                        <h3>Your Best Trip</h3>
-                        <p>Travelling opens door to creating memories. Let's make your travel a little more fun!</p>
-                        <a href="#category" class="btn">get started now</a>
+                        <div>
+                            <span>Make your Next Trip</span>
+                            <h3>Your Best Trip</h3>
+                            <p>Travelling opens door to creating memories. Let's make your travel a little more fun!</p>
+                            <a href="#category" class="btn" >get started now</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide">
-                <div class="box second" style="background: url(images/b7.jpeg) no-repeat;">
+                <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
                     <div class="content">
                         <span>Creative Holidays</span>
                         <h3>Create your kind of Holiday</h3>
                         <p>Plan your dream holiday with us! Free yourself from daily stress and travel with us! </p>
-                        <a href="#category" class="btn">Book now</a>
+                        <a href="#category" class="btn">Explore now</a>
                     </div>
                 </div>
             </div>
@@ -162,7 +170,7 @@
         <h3>memorable outdoor experiences</h3>
         <p>Recently visited one of the famous rainforests in Canada. Canada's Great Bear Rainforest is the largest intact temperate rainforest in the world—and one of the most magical, with elusive species like sea wolves and Kermode bears roaming its 21 million acres. </p>
         <p> Travel will take you on a nine-day excursion aboard a schooner, departing from British Columbia's aboriginal First Nations community of Bella Bella and stopping for sea kayaking along the way. While Canada is currently closed to U.S. travelers, you can always plan ahead for a spring 2022 trip.</p>
-        <a href="#" class="btn">read more</a>
+        <a href="outdoor_experience.html" class="btn">read more</a>
     </div>
 
 </section>
@@ -178,19 +186,25 @@
     <div class="swiper product-slider">
 
         <div class="swiper-wrapper">
+              
+            <script>
+                function login1(){
+                    alert('Login to buy products')
+                }
+            </script>
 
             <div class="swiper-slide slide">
                 <div class="image">
                     <img src="images/Barbeque grill.jpg" alt="">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
+                        <a href="#shop" class="fas fa-" onclick="login1()">Buy</a>
+                        <!-- <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a> -->
                     </div>
                 </div>
                 <div class="content">
                     <h3>Barbeque Grill</h3>
-                    <div class="price"> &#8377; 1000 - &#8377; 3000 </div>
+                    <div class="price">  &#8377; 3199 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -205,14 +219,14 @@
                 <div class="image">
                     <img src="images/carabiner.png" alt="">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
+                        <a href="#shop" class="fas fa-" onclick="login1()">Buy</a>
+                        <!-- <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a> -->
                     </div>
                 </div>
                 <div class="content">
                     <h3>Carabiner</h3>
-                    <div class="price"> &#8377; 500 - &#8377; 1500 </div>
+                    <div class="price">  &#8377; 1599 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -227,14 +241,14 @@
                 <div class="image">
                     <img src="images/hiking Bagpack.jpg" alt="">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
+                        <a href="#shop" class="fas fa-" onclick="login1()" >Buy</a>
+                        <!-- <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a> -->
                     </div>
                 </div>
                 <div class="content">
                     <h3>Hiking Bagpack</h3>
-                    <div class="price"> &#8377; 500 - &#8377; 4000 </div>
+                    <div class="price">  &#8377; 2599 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -249,14 +263,14 @@
                 <div class="image">
                     <img src="images/hiking-boots.png" alt="">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
+                        <a href="#shop" class="fas fa-" onclick="login1()">Buy</a>
+                        <!-- <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a> -->
                     </div>
                 </div>
                 <div class="content">
                     <h3>Hiking Boots</h3>
-                    <div class="price"> &#8377; 2000 - &#8377; 6000 </div>
+                    <div class="price">  &#8377; 2199 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -271,14 +285,14 @@
                 <div class="image">
                     <img src="images/pocket knife.jpg" alt="">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
+                        <a href="#shop" class="fas fa-" onclick="login()">Buy</a>
+                        <!-- <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a> -->
                     </div>
                 </div>
                 <div class="content">
                     <h3>Pocket Knife</h3>
-                    <div class="price"> &#8377; 300 - &#8377; 1000 </div>
+                    <div class="price">  &#8377; 499 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -293,14 +307,14 @@
                 <div class="image">
                     <img src="images/skiiii goggles.jpg" alt="">
                     <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
+                        <a href="#shop" class="fas fa-" onclick="login()">Buy</a>
+                        <!-- <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a> -->
                     </div>
                 </div>
                 <div class="content">
                     <h3>Skii Goggles</h3>
-                    <div class="price"> &#8377; 300 - &#8377; 3000 </div>
+                    <div class="price">  &#8377; 1999 </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -338,8 +352,14 @@
                 <h3>Maldives Sightseeing and Adventure Tour Package</h3>
                 <p>A world-class holiday awaits you in the Maldives with us as your perfect travel companion to make it all work smoother than smooth. With us, you have the chance to choose the best island resorts in the Maldives along with a plethora of water sports activities that can make your vacation something to cherish forever in memories.</p>
                 <div class="price">&#8377; 39,037 - &#8377; 2,49,855</div>
-                <a href="maldives.html" class="btn">explore now</a>
+                <a href="#packages" class="btn" onclick="login()">Book Now</a>
             </div>
+
+            <script>
+                function login(){
+                    alert('You need to login first to book the package');
+                }
+            </script>
         </div>
 
         <div class="box">
@@ -350,7 +370,7 @@
                 <h3>Char Dham Yatra Package</h3>
                 <p>Travellers of all kinds can get the best tourism opportunities in Uttarakhand, the Himalayan state in India, with our various Uttarakhand sightseeing tour packages.Char Dham Yatra is one of the most important pilgrimages in India and holds high religious significance.</p>
                 <div class="price">&#8377; 12,000 - &#8377; 80,345</div>
-                <a href="chardham.html" class="btn">explore now</a>
+                <a href="#packages" class="btn" onclick="login()" >Book Now</a>
             </div>
         </div>
 
@@ -359,10 +379,10 @@
                 <img src="images/hiking1.png" alt="">
             </div>
             <div class="content">
-                <h3>Hiking Packages</h3>
+                <h3>Rishikesh Hiking Package</h3>
                 <p>They say, “There is no Wi-Fi in the mountains, but you will find a better connection”. Covering vast landscapes, stunning views, scenic beauty and surprises, the best hikes in India are experiences to revel in.</p>
                 <div class="price">&#8377; 15,081 - &#8377; 70,159</div>
-                <a href="hiking.html" class="btn">explore now</a>
+                <a href="#packages" class="btn" onclick="login()">Book Now</a>
             </div>
         </div>
 
@@ -374,7 +394,7 @@
                 <h3>Ladakh Package</h3>
                 <p>Ladakh is the land of lamas — full of high passes, alpine lakes and a Buddhist culture that’s still very much alive. Ladakh is one of the most popular destinations among adventure tourists, riders, photographers, and all kinds of outdoor enthusiasts. It can be reached by rail road and train networks. However, be prepared for a lot of off roading to reach your destination. There are a couple of routes you can take to reach the valley</p>
                 <div class="price">&#8377; 28,091 - &#8377; 1,39,300</div>
-                <a href="ladakh.html" class="btn">explore now</a>
+                <a href="#packages" class="btn" onclick="login()" >Book Now</a>
             </div>
         </div>
 
@@ -386,7 +406,7 @@
                 <h3>Kerala Tour Package</h3>
                 <p>Our Kerala Package will include various offers. Called as God’s Own Country, Kerala has something for tourists from all walks of life and tastes like family tour planners, group tour, nature lovers and adventure tour enthusiasts too. So what are you waiting for, come and explore Kerala!!</p>
                 <div class="price">&#8377; 15,000 - &#8377; 1,03,589</div>
-                <a href="kerala.html" class="btn">explore now</a>
+                <a href="#packages" class="btn" onclick="login()">Book Now</a>
             </div>
         </div>
 
@@ -398,7 +418,7 @@
                 <h3>Dubai Desert Safari Package</h3>
                 <p>Our tour packages to Dubai will make you experience the world’s biggest suspended aquarium at Dubai Mall, will take you on a 4X4 desert safari ride and will entertain you with other activities like belly dancing.No visit to Dubai is complete without being on the top of the world i.e on the 124th floor of Burj Khalifa where you can enjoy the 360 degrees top view of the mesmerizing city.</p>
                 <div class="price">&#8377; 45,000 - &#8377; 2,05,445</div>
-                <a href="dubai.html" class="btn">explore now</a>
+                <a href="#packages" class="btn" onclick="login()" >Book Now</a>
             </div>
         </div>
 
@@ -572,7 +592,7 @@
                     <a href="#"> <i class="fas fa-calendar"></i> 25th jan, 2020 </a>
                     <a href="#"> <i class="fas fa-user"></i> by ordinary taveler </a>
                     <br>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Tokyo, Japan</a>
+                    <a href="https://www.google.com/maps/place/Tokyo,+Japan/@35.4751079,139.774844,9.16z/data=!4m5!3m4!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6761919!4d139.6503106" target="_blank"> <i class="fas fa-map-marker-alt"></i> Tokyo, Japan</a>
                 </div>
                 <h3>Fearless Outing.</h3>
                 <p>We arrived in Vancouver before 11:00, two flights in advance of the departure of the ship, as advised by the travel agent to avoid problems if WestJet cancelled or delayed our flight. No problems.</p>
@@ -585,7 +605,7 @@
                     <a href="#"> <i class="fas fa-calendar"></i> 20th sept, 2022 </a>
                     <a href="#"> <i class="fas fa-user"></i> by local adventurer </a>
                     <br>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Assam, India</a>
+                    <a href="https://www.google.com/maps/place/Assam/@26.7271089,92.5542808,7.73z/data=!4m5!3m4!1s0x374516c94c312d63:0xd11a73bb736719fb!8m2!3d26.2006043!4d92.9375739" target="_blank"> <i class="fas fa-map-marker-alt"></i> Assam, India</a>
                 </div>
                 <h3>Family on Airplane.</h3>
                 <p>Back in 2013, I gave up my rented apartment and sold most of my belongings. In the years since, I’ve felt at home in many places around the world but not put down roots anywhere.</p>
@@ -598,7 +618,7 @@
                     <a href="#"> <i class="fas fa-calendar"></i> 15 oct, 2021 </a>
                     <a href="#"> <i class="fas fa-user"></i> by a Broken Backpack </a>
                     <br>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Mumbai, India</a>
+                    <a href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0826881,72.6009789,10z/data=!4m13!1m7!3m6!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!2sMumbai,+Maharashtra!3b1!8m2!3d19.0759837!4d72.8776559!3m4!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559" target="blank"> <i class="fas fa-map-marker-alt"></i> Mumbai, India</a>
                 </div>
                 <h3>Symbolizing Travel.</h3>
                 <p>After almost a week of cruising through Bosnia and Herzegovina, it was new country time and we had decided to continue our road trip in Montenegro. It was cheaper to rent a different car in each country, so we dropped off our Bosnian car in Mostar and jumped on a bus to Herceg Novi, right across the border with Montenegro. I said cheaper, not quicker or less annoying.</p>
@@ -611,7 +631,7 @@
                     <a href="#"> <i class="fas fa-calendar"></i> 21st june, 2021 </a>
                     <a href="#"> <i class="fas fa-user"></i> by young adventuress </a>
                     <br>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Bangalore, India</a>
+                    <a href="https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9538477,77.3507442,10z/data=!3m1!4b1!4m5!3m4!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627?hl=en" target="_blank"> <i class="fas fa-map-marker-alt"></i> Bangalore, India</a>
                 </div>
                 <h3>My Itchy Travel Feet.</h3>
                 <p>This popular YouTube channel by Nadine Sykora documents her experiences as she travels around the world. </p>
@@ -624,7 +644,7 @@
                     <a href="#"> <i class="fas fa-calendar"></i> 20th feb, 2021 </a>
                     <a href="#"> <i class="fas fa-user"></i> by Adventure in You </a>
                     <br>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Thani, Thailand</a>
+                    <a href="https://www.google.com/maps/place/Udon+Thani,+Mueang+Udon+Thani+District,+Udon+Thani,+Thailand/@17.3685289,102.7305603,12z/data=!3m1!4b1!4m5!3m4!1s0x31237641e81572a3:0x5ba46d1afe6c1f17!8m2!3d17.3646969!4d102.8158924?hl=en" target="_blank"> <i class="fas fa-map-marker-alt"></i> Thani, Thailand</a>
                 </div>
                 <h3>Ready your Bags.</h3>
                 <p>If there was a contest for the best travel blog, I would tell everyone to vote for me..</p>
@@ -637,7 +657,7 @@
                     <a href="#"> <i class="fas fa-calendar"></i> 20th july, 2022 </a>
                     <a href="#"> <i class="fas fa-user"></i> by Origin </a>
                     <br>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Delhi, India</a>
+                    <a href="https://www.google.com/maps/place/Delhi/@28.6472799,76.8130599,10z/data=!3m1!4b1!4m5!3m4!1s0x390cfd5b347eb62d:0x37205b715389640!8m2!3d28.7040592!4d77.1024902?hl=en" target="_blank"> <i class="fas fa-map-marker-alt"></i> Delhi, India</a>
                 </div>
                 <h3>Offbeat Travels.</h3>
                 <p>One of my favorite blogs as she talks about the “real” side of travel and is not afraid to get political, talk about racial prejudice when she travels and discusses life as a black female traveler.</p>
@@ -654,16 +674,22 @@
 
 <!-- newsletter section  -->
 
-<section class="newsletter">
+<section class="newsletter" id="newsletter">
 
     <div class="content">
         <h1 class="heading">subscribe now</h1>
         <p>Subscribe for weekly emails with curated articles, guide and amazing offers to enhance your touring adventure!</p>
-        <form action="">
-            <input type="email" name="" placeholder="enter your email" id="" class="email">
-            <input type="submit" value="subscribe" class="btn">
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="enter your email" id="" class="email">
+            <input type="submit" name="send" value="subscribe" class="btn"  onclick="subscribed()">
         </form>
     </div>
+
+    <script>
+        function subscribed(){
+            alert("Thanks for Subscribing !!")
+        }
+    </script>
 
 </section>
 
@@ -693,10 +719,10 @@
             <a href="#shop">shop</a>
             <a href="#packages">packages</a>
             <a href="#reviews">reviews</a>
-            <a href="#blogs">blogs</a>
+            <a href="#blogs">Posts</a>
         </div>
 
-        <div class="box">
+        <!-- <div class="box">
             <h3>extra links</h3>
             <a href="#">my account</a>
             <a href="#">my order</a>
@@ -704,23 +730,23 @@
             <a href="#">ask questions</a>
             <a href="#">terms of use</a>
             <a href="#">privacy policy</a>
-        </div>
+        </div> -->
 
         <div class="box">
             <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> travel123@gmail.com </a>
-            <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 8928213663 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 8097803929 </a>
+            <a href="mailto:tourstravel806@gmail.com" > <i class="fas fa-envelope"></i> tourstravel806@gmail.com</a>
+            <a href="https://www.google.com/maps/place/SIES+Graduate+School+of+Technology/@19.042813,73.0208893,17z/data=!4m5!3m4!1s0x3be7c3db5e2c85cd:0xef26c52d7d73816e!8m2!3d19.042813!4d73.023078" target="_blank"> <i class="fas fa-map"></i> SIES GST Navi Mumbai, india - 400706 </a>
         </div>
 
         <div class="box">
             <h3>follow us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-            <a href="#"> <i class="fab fa-github"></i> github </a>
+            <a href="https://www.facebook.com/profile.php?id=100087673113037" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://mobile.twitter.com/travelc37333199" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href=" https://www.instagram.com/travel__co" target="blank"> <i class="fab fa-instagram"></i> instagram </a>
+            <!-- <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a> -->
+            <!-- <a href="#"> <i class="fab fa-github"></i> github </a> -->
         </div>
 
     </div>
